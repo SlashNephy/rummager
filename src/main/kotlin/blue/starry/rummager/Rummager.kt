@@ -7,6 +7,7 @@ import blue.starry.penicillin.endpoints.search.universal
 import blue.starry.penicillin.extensions.createdAt
 import blue.starry.penicillin.extensions.instant
 import blue.starry.penicillin.extensions.models.text
+import blue.starry.penicillin.extensions.rateLimit
 import blue.starry.penicillin.extensions.via
 import blue.starry.penicillin.models.Status
 import io.ktor.client.request.*
@@ -53,6 +54,8 @@ object Rummager {
         }
 
         lastId.set(search.result.statuses.maxOf { it.data.id })
+
+        logger.trace { "Ratelimit: ${search.rateLimit}" }
     }
 
     private suspend fun searchWithPublicApi() {

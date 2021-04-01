@@ -11,6 +11,12 @@
 [![issues](https://img.shields.io/github/issues/SlashNephy/rummager)](https://github.com/SlashNephy/rummager/issues)
 [![pull requests](https://img.shields.io/github/issues-pr/SlashNephy/rummager)](https://github.com/SlashNephy/rummager/pulls)
 
+# これはなに
+
+Twitter のエゴサ結果を Discord Webhook で通知するツールです。
+
+[![screenshot.png](https://raw.githubusercontent.com/SlashNephy/rummager/master/docs/screenshot.png)](https://github.com/SlashNephy/rummager)
+
 ## Requirements
 
 - Java 8 or later

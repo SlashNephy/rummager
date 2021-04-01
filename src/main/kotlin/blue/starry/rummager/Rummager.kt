@@ -110,7 +110,7 @@ object Rummager {
                         fields = listOf(
                             DiscordEmbed.Field(
                                 name = "Source",
-                                value = "[${tweet.via.name}](https://twitter.com/${tweet.user.screenName}/status/${tweet.id})"
+                                value = "[${tweet.via.name}](${tweet.via.url})"
                             ),
                             DiscordEmbed.Field(
                                 name = "Link",

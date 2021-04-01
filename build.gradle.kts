@@ -22,6 +22,7 @@ object Versions {
 object Libraries {
     const val Penicillin = "blue.starry:penicillin:${Versions.Penicillin}"
     const val KtorClientCIO = "io.ktor:ktor-client-cio:${Versions.Ktor}"
+    const val KtorClientSerialization = "io.ktor:ktor-client-serialization:${Versions.Ktor}"
 
     const val KotlinLogging = "io.github.microutils:kotlin-logging:${Versions.KotlinLogging}"
     const val LogbackCore = "ch.qos.logback:logback-core:${Versions.Logback}"
@@ -45,6 +46,7 @@ repositories {
 dependencies {
     implementation(Libraries.Penicillin)
     implementation(Libraries.KtorClientCIO)
+    implementation(Libraries.KtorClientSerialization)
 
     implementation(Libraries.KotlinLogging)
     implementation(Libraries.LogbackCore)

@@ -83,6 +83,8 @@ object Rummager {
         }
 
         lastId.set(search.result.statuses.maxOf { it.id })
+
+        logger.trace { "Ratelimit: ${search.rateLimit}" }
     }
 
     private suspend fun sendToDiscord(tweet: Status, webhookUrl: String) {

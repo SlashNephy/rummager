@@ -42,7 +42,7 @@ version: '3.8'
 services:
   rummager:
     container_name: rummager
-    image: slashnephy/rummager:latest
+    image: ghcr.io/slashnephy/rummager:latest
     restart: always
     environment:
       # Twitter の資格情報 (必須)

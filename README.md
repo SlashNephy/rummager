@@ -2,7 +2,7 @@
 
 🔍 Let's find tweets that mention you on Twitter. (ego-searching)
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-1.4.30-blue)](https://kotlinlang.org)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.6-blue)](https://kotlinlang.org)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/SlashNephy/rummager)](https://github.com/SlashNephy/rummager/releases)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/SlashNephy/rummager/Docker)](https://hub.docker.com/r/slashnephy/rummager)
 [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/slashnephy/rummager/latest)](https://hub.docker.com/r/slashnephy/rummager)
@@ -19,7 +19,7 @@ Twitter のエゴサ結果を Discord Webhook で通知するツールです。
 
 ## Requirements
 
-- Java 8 or later
+- Java 17 or later
 
 ## Get Started
 

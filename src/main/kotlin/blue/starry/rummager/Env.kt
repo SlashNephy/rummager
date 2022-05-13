@@ -1,5 +1,6 @@
 package blue.starry.rummager
 
+import java.util.*
 import kotlin.properties.ReadOnlyProperty
 
 object Env {
@@ -42,7 +43,7 @@ private fun String?.toBooleanFazzy(): Boolean {
     return when (this) {
         null -> false
         "1", "yes" -> true
-        else -> toLowerCase().toBoolean()
+        else -> lowercase(Locale.getDefault()).toBoolean()
     }
 }
 

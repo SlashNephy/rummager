@@ -27,11 +27,11 @@ Twitter のエゴサ結果を Discord Webhook で通知するツールです。
 
 There are some image tags.
 
-- `slashnephy/rummager:latest`  
+- `ghcr.io/slashnephy/rummager:latest`  
   Automatically published every push to `master` branch.
-- `slashnephy/rummager:dev`  
+- `ghcr.io/slashnephy/rummager:dev`  
   Automatically published every push to `dev` branch.
-- `slashnephy/rummager:<version>`  
+- `ghcr.io/slashnephy/rummager:<version>`  
   Coresponding to release tags on GitHub.
 
 `docker-compose.yml`
